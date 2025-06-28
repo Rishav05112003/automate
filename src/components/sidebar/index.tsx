@@ -17,9 +17,9 @@ import { ModeToggle } from '../global/mode-toggle'
 type Props = {}
 
 const MenuOptions = (props: Props) => {
-    const pathName = usePathname
+    const pathName = usePathname()
   return (
-    <nav className='dark:bg-black scrollbar-hidden h-screen overflow-auto flex justify-between flex-col gap-10 py-6 px-2'>
+    <nav className='dark:bg-black scrollbar-hidden h-screen overflow-auto flex justify-between flex-col gap-5 py-6 px-2'>
       <div className='flex gap-8 flex-col items-center justify-center'>
         <Link className='flex text-gray-300 font-bold flex-row'
           href="/">
