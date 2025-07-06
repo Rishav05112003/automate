@@ -48,7 +48,7 @@ const ProfileForm = ({ user, onUpdate }: Props) => {
   return (
     <Form {...form}>
       <form
-        className="flex flex-col gap-6"
+        className="flex text-white/70 flex-col gap-6"
         onSubmit={form.handleSubmit(handleSubmit)}
       >
         <FormField
